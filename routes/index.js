@@ -1,8 +1,12 @@
 const express = require('express')
 const router = express.Router()
 
+
+// All  Route
 router.get('/', (req,res) => {
     res.render('index')
 })
 
-module.exports = router
+
+
+module.exports = router 
